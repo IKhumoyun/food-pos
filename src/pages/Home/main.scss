@@ -1,0 +1,20 @@
+.homepage {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  .content-section {
+    width: 60%;
+    padding: 24px;
+    box-sizing: border-box;
+    height: 100vh;
+    overflow: hidden;
+  }
+  .payment-section {
+    background: #1F1D2B;
+    border-radius: 8px 0 0 8px;
+    width: 40%;
+    height: 100vh;
+    padding: 24px;
+    box-sizing: border-box;
+  }
+}

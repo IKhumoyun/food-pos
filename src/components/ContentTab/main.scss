@@ -1,0 +1,32 @@
+.tab-group {
+  display: flex;
+  border-bottom: 1px solid #393C4A;
+  margin-bottom: 24px;
+  .tab-option {
+    margin-right: 32px;
+    text-decoration: none;
+    padding: 0;
+    padding-bottom: 13px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 140%;
+    color: #FFFFFF;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    &.active, &:focus {
+      color: #EA7C69;
+      position: relative;
+      &:before {
+        content: "";
+        position: absolute;
+        bottom: -3px;
+        width: 37px;
+        left: 0;
+        border: 3px solid #EA7C69;
+        border-radius: 3px;
+      }
+    }
+  }
+}
